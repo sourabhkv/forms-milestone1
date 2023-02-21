@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-#%o*yu_13qt)_vlgz9u+jz)f7u1$)u36kxmq%*ia23sack@e2c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','3993-122-172-87-239.in.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1','<second host domain>']
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000','https://3993-122-172-87-239.in.ngrok.io']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000','<second host>']# 2nd host can be from ngrok or cloudfare
 
 
 # Application definition
@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'IST'
 
 USE_I18N = True
 
